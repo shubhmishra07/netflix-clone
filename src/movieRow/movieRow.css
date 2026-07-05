@@ -1,0 +1,27 @@
+.row{
+
+    margin:40px 60px;
+}
+
+.row h2{
+
+    color:white;
+
+    margin-bottom:15px;
+}
+
+.cards{
+
+    display:flex;
+
+    gap:15px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+}
+
+.cards::-webkit-scrollbar{
+
+    display:none;
+}
